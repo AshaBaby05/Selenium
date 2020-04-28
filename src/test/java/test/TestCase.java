@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class TestCase {
 
 	
-	@Test (priority=2)
+	@Test (priority=2,enabled=false)
 	public void search() {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
